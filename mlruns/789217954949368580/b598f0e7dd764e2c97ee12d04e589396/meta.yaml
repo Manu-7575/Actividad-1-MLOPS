@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/Actividad-1-MLOPS/mlruns/789217954949368580/b598f0e7dd764e2c97ee12d04e589396/artifacts
+end_time: 1792866272272
+entry_point_name: ''
+experiment_id: '789217954949368580'
+lifecycle_stage: active
+run_id: b598f0e7dd764e2c97ee12d04e589396
+run_name: vaunted-finch-597
+run_uuid: b598f0e7dd764e2c97ee12d04e589396
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792866271262
+status: 3
+tags: []
+user_id: codespace

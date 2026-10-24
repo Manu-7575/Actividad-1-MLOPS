@@ -1,0 +1,19 @@
+datos:
+  ruta: "../data/churn_sintetico.csv"
+
+division:
+  test_size: 0.2
+  random_state: 42
+
+modelo:
+  tipo: "logistic_regression" # o "gradient_boosting"
+  parametros:
+    max_iter: 100
+
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db" # O http://localhost:5000 si usas servidor Docker
+  experimento: "experimento-churn"
+  nombre_run: "run-baseline"
+
+metricas:
+  umbral: 0.5

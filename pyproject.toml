@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "actividad-1-mlops"
+version = "0.1.0"
+description = "Actividad 1: Fundamentos, versionamiento y seguimiento"
+authors = ["Emmanuel Marin - Jose Figueroa - Juan Rodriguez>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.15"
+pandas = "^2.0.0"
+prefect = "^3.8.8"
+mlflow = "^2.18.0"
+sqlalchemy = ">=2.0.0,<2.0.25"
+pyyaml = "^6.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
